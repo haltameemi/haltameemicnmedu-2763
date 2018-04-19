@@ -1,0 +1,28 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .staff-directory-label {
+	display: block;
+	float: left;
+	width: 200px;
+}
+
+.staff-directory-input {
+	padding-left: 3px;
+	display: block;
+}
+
+fieldset.outer {
+	border: 1px dotted #000;
+}
+
+fieldset.inner {
+	border: 1px dotted #ccc;
+	margin: 3px;
+}
+/* jQuery drag and drop sortable */
+  #sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+  #sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 18px; }
+  #sortable li span { position: absolute; margin-left: -1.3em; }
+  #sortable li { display:inline;}
